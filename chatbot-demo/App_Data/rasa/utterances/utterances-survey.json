@@ -1,0 +1,74 @@
+[
+  {
+    "Intent": "id",
+    "Entity": "",
+    "Utterances": [ "Thanks, can I get the region you are in?", "okay, what region do you work in?", "Thanks for that, can I get the region that you are located in?" ],
+    "nextState": "region"
+  },
+  {
+    "Intent": "region",
+    "Entity": "",
+    "Utterances": [ "Great! <br><br> What is the name of your idea/suggestion? ", "Thanks, now, can I get the name of your idea/suggestion? "],
+    "nextState": "suggestionName"
+  },
+  {
+    "Intent": "suggestionName",
+    "Entity": "",
+    "Utterances": [ "What team within Internal Audit are you a part of? For Example: Finance, Cards, etc", "What IA team do you work on? This might be something like Cards or Finance." ],
+    "nextState": "selectOrg"
+  },
+  {
+    "Intent": "selectOrg",
+    "Entity": "",
+    "Utterances": [ "Can you please provide a brief description of your suggestion?", "Could you please give me a short description of your suggestion?" ],
+    "nextState": "suggestionDescription"
+  },
+  {
+    "Intent": "suggestionDescription",
+    "Entity": "",
+    "Utterances": [ "Who works on this process? Is it a global process?", "Who owns this process? Is it global?" ],
+    "nextState": "suggestionOwners"
+  },
+  {
+    "Intent": "suggestionOwners",
+    "Entity": "",
+    "Utterances": [ "Approximately, how much time do we spend on the process now?", "About how much time is spent on this, currently?" ],
+    "nextState": "suggestionTime"
+  },
+  {
+    "Intent": "suggestionTime",
+    "Entity": "",
+    "Utterances": [ "How much time would we save if we implemented your suggestion?", "If we did implement your suggestion how much time would we save?" ],
+    "nextState": "suggestionSave"
+  },
+  {
+    "Intent": "suggestionSave",
+    "Entity": "",
+    "Utterances": [ "Does this process provide a better Audit Assurance?<br> <br>Tip: You can calculate this by determining equivalent effort if done manually", "Would this improve our Audit Assurance? Try comparing it to if we did this process maually." ],
+    "nextState": "suggestionQA"
+  },
+  {
+    "Intent": "suggestionQA",
+    "Entity": "",
+    "Utterances": [ "Is this process going to be decommisioned or retired soon? Its okay if you don't know. Just say 'I don't know' or 'skip'" ],
+    "nextState": "suggestionDecom"
+  },
+  {
+    "Intent": "suggestionDecom",
+    "Entity": "",
+    "Utterances": [ "How frequently is this project done? If you don't know just guestimate!", "About how much times do we do this process in a month?"],
+    "nextState": "suggestionFrequency"
+  },
+  {
+    "Intent": "suggestionFrequency",
+    "Entity": "",
+    "Utterances": [ "How many systems or databases does it interact with? If you don't know just say skip. " ],
+    "nextState": "suggestionInteractions"
+  },
+  {
+    "Intent": "suggestionInteractions",
+    "Entity": "",
+    "Utterances": [ "Would you like to submit this? " ],
+    "nextState": "finish"
+  }
+]

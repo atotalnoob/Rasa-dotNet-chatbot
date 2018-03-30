@@ -1,0 +1,82 @@
+﻿Some perhaps common data for reuse in training set generation.
+
+~[name] are synonyms
+@[name] are entities
+%[name] are intents
+question mark after slot marks it as OPTIONAL
+Documentation: https://github.com/rodrigopivi/Chatito
+
+This tool is quite particular, so if you have issues generating, check for multiple lines between items. 
+
+
+%[perfTuning]
+    How do I ~[perf]?
+    ~[perf]
+    @[topic] ~[perf]
+    show me @[topic] ~[perf]
+    show me ~[perf]
+    how do I ~[perf]
+    what are ways to ~[perf]
+    what are ways to @[topic] ~[perf]
+
+~[perf]
+    perf
+    performance
+    performance tuning
+    perf tuning
+    speed tuning
+    speed up
+
+~[java]
+    java
+    coding language
+    groovy
+    oracle programming language
+    tomcat
+
+~[selenium]
+    selenium
+    selenese
+    unit testing
+
+
+~[no]
+    no
+    NO
+    not
+    nope
+    negative
+    not interested
+    no way
+    
+~[I]
+    i
+    I
+    me
+    we
+    you
+    ME
+    WE
+    YOU
+    u
+    U
+~[want]
+    want
+    would like
+    would enjoy
+~[take]
+    take
+    TAKE
+    complete
+    do
+    finish
+~[survey]
+    survey
+    SURVEY
+    questionnaire
+    questions
+
+@[topic]
+    ~[java]
+    ~[selenium]
+    ~[tower]

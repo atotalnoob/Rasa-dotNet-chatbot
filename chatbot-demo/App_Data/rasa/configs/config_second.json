@@ -1,0 +1,8 @@
+{
+  "project": "internalAudit",
+  "response_log": "logs/",
+  "port": 5005,
+  "pipeline": "spacy_sklearn",
+  "path": "./projects",
+  "data": "./data/second/"
+}

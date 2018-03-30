@@ -1,0 +1,148 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [],
+    "entity_synonyms": [],
+    "common_examples": [
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "YES",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ya",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "YEAH",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "YA",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yea",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "YEA",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "That's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "correct",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "affirm",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "sounds good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "sound's good",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ye",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "okay",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "k",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "lets go",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "get started",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "start",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "OK",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "OKAY",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "K",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "kk",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "KK",
+        "intent": "affirm",
+        "entities": []
+      }
+    ]
+  }
+}

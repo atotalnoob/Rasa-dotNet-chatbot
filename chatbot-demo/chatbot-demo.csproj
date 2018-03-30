@@ -1,0 +1,467 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2AA23E02-1B36-4A49-A8B2-D39E4AF91CC7}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>chatbot_demo</RootNamespace>
+    <AssemblyName>chatbot-demo</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <MvcBuildViews>false</MvcBuildViews>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
+    <TypeScriptToolsVersion>2.5</TypeScriptToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <FilesToIncludeForPublish>OnlyFilesToRunTheApp</FilesToIncludeForPublish>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="DnsClient, Version=1.0.7.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
+      <HintPath>..\packages\DnsClient.1.0.7\lib\net45\DnsClient.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.8.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.4.0.0\lib\net451\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.4.0.0\lib\net451\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.4.0.0\lib\net451\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.4.0.0\lib\net451\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.4.0.0\lib\net451\Microsoft.Owin.Security.Facebook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.4.0.0\lib\net451\Microsoft.Owin.Security.Google.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.MicrosoftAccount, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.MicrosoftAccount.4.0.0\lib\net451\Microsoft.Owin.Security.MicrosoftAccount.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.4.0.0\lib\net451\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Twitter, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Twitter.4.0.0\lib\net451\Microsoft.Owin.Security.Twitter.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.5.0\lib\net45\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.2.5.0\lib\net45\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.5.0\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.3.0\lib\netstandard1.1\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.0.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.Helpers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.4.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.4\lib\net45\System.Web.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.4\lib\net45\System.Web.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.4\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Abstractions" />
+    <Reference Include="System.Web.Routing" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\BundleConfig.cs" />
+    <Compile Include="App_Start\FilterConfig.cs" />
+    <Compile Include="App_Start\IdentityConfig.cs" />
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="App_Start\Startup.Auth.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\FileUpdateModel.cs" />
+    <Compile Include="Models\MongoInterface.cs" />
+    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ManageViewModels.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\rasa\.gitattributes" />
+    <Content Include="App_Data\rasa\data\dataset-premades.txt" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\keyword_intent_classifier.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\mitie_intent_classifier.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\sklearn_intent_classifier.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\__pycache__\keyword_intent_classifier.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\__pycache__\mitie_intent_classifier.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\__pycache__\sklearn_intent_classifier.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\classifiers\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\components.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\config.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\convert.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\data_router.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\download.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\emulators\dialogflow.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\emulators\luis.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\emulators\wit.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\emulators\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\emulators\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\evaluate.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\crf_entity_extractor.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\duckling_extractor.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\duckling_http_extractor.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\entity_synonyms.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\mitie_entity_extractor.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\spacy_entity_extractor.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__pycache__\crf_entity_extractor.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__pycache__\duckling_extractor.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__pycache__\duckling_http_extractor.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__pycache__\entity_synonyms.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__pycache__\mitie_entity_extractor.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__pycache__\spacy_entity_extractor.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\extractors\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\mitie_featurizer.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\ngram_featurizer.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\regex_featurizer.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\spacy_featurizer.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\__pycache__\mitie_featurizer.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\__pycache__\ngram_featurizer.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\__pycache__\regex_featurizer.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\__pycache__\spacy_featurizer.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\featurizers\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\model.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\persistor.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\project.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\registry.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\server.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\mitie_tokenizer.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\spacy_tokenizer.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\whitespace_tokenizer.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\__pycache__\mitie_tokenizer.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\__pycache__\spacy_tokenizer.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\__pycache__\whitespace_tokenizer.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\tokenizers\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\train.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\dialogflow.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\luis.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\markdown.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\rasa.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\readerwriter.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\wit.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__pycache__\dialogflow.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__pycache__\luis.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__pycache__\markdown.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__pycache__\rasa.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__pycache__\readerwriter.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__pycache__\wit.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\formats\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\loading.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\message.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\training_data.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\util.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\__pycache__\loading.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\__pycache__\message.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\__pycache__\training_data.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\__pycache__\util.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\training_data\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\utils\mitie_utils.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\utils\spacy_utils.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\utils\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\utils\__pycache__\mitie_utils.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\utils\__pycache__\spacy_utils.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\utils\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\version.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\__init__.py" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\components.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\config.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\data_router.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\model.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\persistor.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\project.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\registry.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\server.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\train.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\version.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\rasa_nlu\__pycache__\__init__.cpython-36.pyc" />
+    <Content Include="App_Data\rasa\setup.py" />
+    <Content Include="Content\css\chatWindow.css" />
+    <Content Include="Content\css\bootstrap-datetimepicker.css" />
+    <Content Include="Content\css\bootstrap-glyphicons.css" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\css\datepicker.css" />
+    <Content Include="Content\css\font-awesome.min.css" />
+    <Content Include="Content\css\jsoneditor.min.css" />
+    <Content Include="Content\images\jsoneditor-icons.svg" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\interstate-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\bootstrap.min.css.map" />
+    <Content Include="fonts\Interstate-ExtraLight.otf" />
+    <Content Include="fonts\interstate-regular.eot" />
+    <Content Include="fonts\interstate-regular.ttf" />
+    <Content Include="fonts\interstate-regular.woff" />
+    <Content Include="fonts\interstatelight-webfont.ttf" />
+    <Content Include="fonts\interstatelight-webfont.woff" />
+    <Content Include="fonts\interstatelight-webfont.woff2" />
+    <Content Include="fonts\InterstateLight.ttf" />
+    <Content Include="App_Data\rasa\app.json" />
+    <Content Include="App_Data\rasa\configs\config_default.json" />
+    <Content Include="App_Data\rasa\data\test\demo-rasa-noents.json" />
+    <Content Include="App_Data\rasa\data\test\demo-rasa-small.json" />
+    <Content Include="App_Data\rasa\data\test\dialogflow_en_converted_to_rasa.json" />
+    <Content Include="App_Data\rasa\data\test\dialogflow_es_converted_to_rasa.json" />
+    <Content Include="App_Data\rasa\data\test\json_converted_to_md.md" />
+    <Content Include="App_Data\rasa\data\test\luis_converted_to_rasa.json" />
+    <Content Include="App_Data\rasa\data\test\markdown_single_sections\regex_only.md" />
+    <Content Include="App_Data\rasa\data\test\markdown_single_sections\synonyms_only.md" />
+    <Content Include="App_Data\rasa\data\test\md_converted_to_json.json" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_json\demo-rasa-affirm.json" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_json\demo-rasa-goodbye.json" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_json\demo-rasa-greet.json" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_json\demo-rasa-restaurant_search.json" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_markdown\demo-rasa-affirm.md" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_markdown\demo-rasa-goodbye.md" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_markdown\demo-rasa-greet.md" />
+    <Content Include="App_Data\rasa\data\test\multiple_files_markdown\demo-rasa-restaurant_search.md" />
+    <Content Include="App_Data\rasa\data\test\wit_converted_to_rasa.json" />
+    <Content Include="App_Data\rasa\entrypoint.sh" />
+    <Content Include="App_Data\rasa\Makefile" />
+    <Content Include="App_Data\rasa\setup.cfg" />
+    <Content Include="App_Data\rasa\utterances\utterances.json" />
+    <Content Include="App_Data\rasa\data\scaffold-intent.json" />
+    <Content Include="App_Data\rasa\utterances\utterances-survey.json" />
+    <Content Include="App_Data\rasa\configs\config_second.json" />
+    <Content Include="App_Data\rasa\data\default\survey.json" />
+    <Content Include="App_Data\rasa\data\default\negative.json" />
+    <Content Include="App_Data\rasa\data\default\greet.json" />
+    <Content Include="App_Data\rasa\data\default\demo-rasa-goodbye.json" />
+    <Content Include="App_Data\rasa\data\default\affirm.json" />
+    <Content Include="Scripts\chatWindow.js" />
+    <Content Include="Scripts\font-awesome.min.css" />
+    <Content Include="Scripts\bootstrap.min.js.map" />
+    <Content Include="Scripts\bootstrap.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.min.js.map" />
+    <Content Include="Scripts\bootstrap.bundle.js.map" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.min.js" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Views\Web.config" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Scripts\README.md" />
+    <Content Include="Scripts\popper.min.js.map" />
+    <Content Include="Scripts\popper.js.map" />
+    <Content Include="Scripts\popper-utils.min.js.map" />
+    <Content Include="Scripts\popper-utils.js.map" />
+    <Content Include="Scripts\jsoneditor.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\rasa\data\second\" />
+    <Folder Include="App_Data\rasa\logs\" />
+    <Folder Include="App_Data\rasa\projects\chatbotDefault\" />
+    <Folder Include="App_Data\rasa\projects\default\" />
+    <Folder Include="fonts\interstate\" />
+    <Folder Include="Properties\PublishProfiles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="Scripts\index.d.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\chatbotHelper\chatbotHelper.csproj">
+      <Project>{027f5d1a-882a-4983-bccb-f3b10d6e1fc7}</Project>
+      <Name>chatbotHelper</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <Target Name="MvcBuildViews" AfterTargets="AfterBuild" Condition="'$(MvcBuildViews)'=='true'">
+    <AspNetCompiler VirtualPath="temp" PhysicalPath="$(WebProjectOutputDir)" />
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>62567</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:62567/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.2.6.1\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.8\build\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target> -->
+</Project>

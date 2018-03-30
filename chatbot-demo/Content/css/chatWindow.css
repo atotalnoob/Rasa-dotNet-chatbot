@@ -1,0 +1,142 @@
+﻿a {
+    color:orangered;
+}
+
+body {
+    background: #eae8e1;
+    margin: 0 auto;
+    height: 100%;
+    font-family: sans-serif;
+   
+}
+
+
+
+.msg_head {
+    background-color: #002D72;
+    text-align:center;
+    /*padding: 15px;*/
+    font-weight: bold;
+    cursor: pointer;
+    /*border-radius: 5px 5px 0px 0px;*/
+}
+
+
+.msg_box {
+    /*position: relative;*/
+    bottom: -5px;
+    width: 40%;
+    background: white;
+    border-radius: 5px 5px 0px 0px;
+    padding-bottom:10px;
+}
+
+
+.msg_body {
+    background: white;
+    height: 200px;
+    font-size: 12px;
+    padding: 15px;
+    overflow: auto;
+    overflow-x: hidden;
+}
+
+.msg_input {
+    border: 1px solid dodgerblue;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box;
+    width: 95%;
+    max-width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:90%;
+    max-height:95%;
+    margin-bottom: 10px;
+}
+
+.msg_submit {
+    margin-left:2.5%;
+}
+
+/*.close {
+    float: right;
+    cursor: pointer;
+}*/
+
+.minimize {
+    float: right;
+    cursor: pointer;
+    padding-right: 5px;
+}
+
+/*.user {
+    position: relative;
+    padding: 10px 30px;
+}*/
+
+    /*.user:hover {
+        background: #f8f8f8;
+        cursor: pointer;
+    }*/
+
+    /*.user:before {
+        content: '';
+        position: absolute;
+        background: #2ecc71;
+        height: 10px;
+        width: 10px;
+        left: 10px;
+        top: 15px;
+        border-radius: 6px;
+    }*/
+
+.msg_a {
+    width:60%;
+    position: relative;
+    background: #008CE6;
+    padding: 10px;
+    min-height: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color:white;
+}
+
+    .msg_a:before {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border: 10px solid;
+        border-color: transparent #008CE6 transparent transparent;
+        left: -20px;
+        top: 7px;
+    }
+
+
+.msg_b {
+    width:60%;
+    background: #97999B;
+    color:#ffffff;
+    padding-right: 200px;   
+    padding: 10px;
+    min-height: 15px;
+    margin-bottom: 5px;
+    position: relative;
+    margin-left: 40%;
+    border-radius: 5px;
+    word-wrap: break-word;
+}
+
+    .msg_b:after {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        border: 10px solid;
+        border-color: transparent transparent transparent #97999B;
+        right: -20px;
+        top: 7px;
+    }

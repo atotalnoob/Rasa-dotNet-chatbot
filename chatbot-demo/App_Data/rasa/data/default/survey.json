@@ -1,0 +1,3012 @@
+{
+  "rasa_nlu_data": {
+    "regex_features": [
+      {
+        "name": "",
+        "pattern": ""
+      }
+    ],
+    "common_examples": [
+      {
+        "text": "ME would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would enjoy to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to do the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would like to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we want to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to complete the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to do the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to complete the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to finish the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would like to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would like to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to take the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me want to take the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE would enjoy to TAKE the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would like to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to complete the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "me would enjoy to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you want to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "U would enjoy to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to finish the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i want to finish the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME want to TAKE the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to do the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "you would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "ME would like to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would enjoy to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "I would enjoy to finish the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "u would enjoy to complete the questions",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "YOU would enjoy to take the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "WE want to do the questionnaire",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would enjoy to TAKE the SURVEY",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "i would like to TAKE the survey",
+        "intent": "survey",
+        "entities": []
+      },
+      {
+        "text": "we would like to take the SURVEY",
+        "intent": "survey",
+        "entities": []
+      }
+    ]
+  }
+}

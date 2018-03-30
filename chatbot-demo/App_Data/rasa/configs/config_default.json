@@ -1,0 +1,8 @@
+{
+  "project": "chatbotDefault",
+  "response_log": "logs/",
+  "port": 5005,
+  "pipeline": "spacy_sklearn",
+  "path": "./projects",
+  "data": "./data/cbDefault/"
+}

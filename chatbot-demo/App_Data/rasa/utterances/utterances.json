@@ -1,0 +1,20 @@
+[
+  {
+    "Intent": "greet",
+    "Entity": "",
+    "Utterances": [ "hello!", "hey!", "Howdy", "How's it going?", "Hi" ],
+    "nextState": ""
+  },
+  {
+    "Intent": "affirm",
+    "Entity": "",
+    "Utterances": [ "Okay", "sounds good", "Sure!" ],
+    "nextState": "startSurvey"
+  },
+  {
+    "Intent": "sample",
+    "Entity": "entity",
+    "Utterances": [ "hello world!" ],
+    "nextState": ""
+  }
+]

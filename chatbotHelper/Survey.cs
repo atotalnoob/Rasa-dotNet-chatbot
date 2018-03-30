@@ -5,7 +5,7 @@ namespace chatbotHelper
 {
     public static class Survey
     {
-
+        
         public static string check(Tools.ChatAPIResponse chatResponse)
         {
             chatResponse.previousState = chatResponse.nextState;

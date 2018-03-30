@@ -234,17 +234,7 @@ namespace chatbotHelper
                 Match match = null;
 
 
-                //TODO: Refactor me!
-                //SOEID Regex
-                if (Entities.Count != 0)
-                {
-                    Regex regex = new Regex(@"^[A-Za-z]{2}[0-9]{5}");
-
-                    match = regex.Match(Entities[0]);
-                }
-                //end refactor
-
-                //intent override
+                //intent override, if you need to make a linear survey like use case
                 intent.Intent = Survey.check(this);
 
 

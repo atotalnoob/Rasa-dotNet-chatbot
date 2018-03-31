@@ -16,7 +16,7 @@ Just kidding, it turned my beautiful, clean, sexy project into a bowl of steamin
 
 But anyway, I added that other crap, and now we can override intents, allowing you to basically force the user to fill out a glorified form.
 
-Don't worry, I did something similar to this at work and they added bitmojis, so this is at least better than that. *cries*, this is what I want to college to do.
+Don't worry, I did something similar to this at work and they added bitmojis, so this is at least better than that. *cries*, this is what I went to college to do.
 
 
 ## Damn, you think I know what Intents, Entities, and utterances are? SOOOO Naive
